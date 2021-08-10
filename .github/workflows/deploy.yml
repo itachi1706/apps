@@ -9,7 +9,7 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: gcp-infra-pinknode-io-0   # Add your cluster name here.
   GKE_ZONE: asia-southeast1-b   # Add your cluster zone here.
-  DEPLOYMENT_NAME: pn-apps-deployer # Add your deployment name here.
+  DEPLOYMENT_NAME: pn-apps # Add your deployment name here.
   IMAGE: pn-apps-custom
 
 jobs:
