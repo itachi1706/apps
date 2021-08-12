@@ -22,7 +22,7 @@ spec:
       - name: pn-apps
         image: gcr.io/pinknode-infra-gke/apps:latest
         ports:
-        - containerPort: 3000
+        - containerPort: 80
         resources:
           requests:
             cpu: 100m
