@@ -32,7 +32,16 @@ export function createKusama (t: TFunction): EndpointOption {
         providers: {
           Pinknode: 'wss://rpc.pinknode.io/moonriver/explorer'
         }
-      }
+      },
+      {
+        info: 'shiden',
+        homepage: 'https://shiden.plasmnet.io/',
+        paraId: 2007,
+        text: t('rpc.kusama.shiden', 'Shiden', { ns: 'apps-config' }),
+        providers: {
+          Pinknode: 'wss://rpc.pinknode.io/shiden/explorer'
+        }
+      },
     ]
   };
 }
